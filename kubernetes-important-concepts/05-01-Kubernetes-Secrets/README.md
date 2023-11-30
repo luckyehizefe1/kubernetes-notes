@@ -33,7 +33,7 @@ metadata:
 #It can contain arbitrary key-value pairs. 
 type: Opaque
 data:
-  # Output of "echo -n 'devdb@123' | base64"
+  # Output of echo -n 'devdb@123' | base64
   db-password: ZGV2ZGJAMTIz
 ```
 ## create secret to access a docker-hub private  registry
